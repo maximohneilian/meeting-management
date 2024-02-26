@@ -1,0 +1,54 @@
+version: '3'
+
+services:
+  app:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-26-nov-2023/final-projects/cannabees.cloud:master
+    volumes:
+      - static_files:/static-files
+      - media_files:/media-files
+      - build:/frontend/dist
+    command: 'sh /scripts/prod.sh'
+    env_file:
+      - ./envs/prod.env
+    depends_on:
+      - postgres
+
+  celery:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-26-nov-2023/final-projects/cannabees.cloud:latest
+    volumes:
+      - ./backend:/backend  # Ensure Celery has access to your Django project's code
+    command: celery -A project worker --loglevel=info  # Replace your_project_name with your actual project name
+    env_file:
+      - ./envs/dev.env
+    depends_on:
+      - postgres  # Assuming Celery needs to access the database
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:latest
+    env_file:
+      - ./envs/prod.env
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./nginx:/etc/nginx/conf.d/
+      - static_files:/static-files
+      - media_files:/media-files
+      - build:/build
+      - /etc/letsencrypt:/etc/letsencrypt
+
+volumes:
+  postgres_db:
+  static_files:
+  media_files:
+  build:

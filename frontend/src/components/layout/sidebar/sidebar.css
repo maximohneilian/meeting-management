@@ -1,0 +1,17 @@
+.navlink {
+  border-radius: 6px;
+  padding: calc(var(--mantine-spacing-md)/2) var(--mantine-spacing-md);
+}
+
+.navlink span {
+  font-weight: 500;
+}
+
+.navlink svg {
+  width: calc(1.5rem * var(--mantine-scale));
+  height: calc(1.5rem * var(--mantine-scale));
+}
+
+.navlink:hover {
+  background-color: rgba(255,255,255,0.05);
+}

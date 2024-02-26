@@ -1,0 +1,309 @@
+WARNING:django.request:Not Found: /zoom_oauth
+WARNING:django.request:Not Found: /zoom_oauth
+INFO:django.utils.autoreload:/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/urls.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /api/oauth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: zoom_oauth() takes 0 positional arguments but 1 was given
+ERROR:django.request:Internal Server Error: /api/oauth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: zoom_oauth() takes 0 positional arguments but 1 was given
+ERROR:django.request:Internal Server Error: /api/oauth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: zoom_oauth() takes 0 positional arguments but 1 was given
+ERROR:django.request:Internal Server Error: /api/oauth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: zoom_oauth() takes 0 positional arguments but 1 was given
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+WARNING:django.request:Not Found: /zoom
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+WARNING:django.request:Not Found: /zoom
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    return render(request, 'zoom_authentication.html', {'authorization_url': authorization_url})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:root:https://zoom.us/oauth/authorize?client_id=FilqWa9EQx6gWUSJzojB_g&response_type=code&redirect_uri=https%3A%2F%2Fcannabees-cloud.propulsion-learn.ch%2Fredirect
+ERROR:django.request:Internal Server Error: /api/zoom-auth/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 31, in zoom_authentication
+    authorization_url = "https://zoom.us/oauth/authorize?" + urllib.parse.urlencode(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: zoom_authentication.html
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/zoom-callback/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 72, in zoom_callback
+    access_token = get_token(code)
+                   ^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 89, in get_token
+    return token_json["access_token"]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'access_token'
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/zoom-callback/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 74, in zoom_callback
+    access_token = get_token(code)
+                   ^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 91, in get_token
+    return token_json["access_token"]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'access_token'
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/zoom-callback/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 74, in zoom_callback
+    access_token = get_token(code)
+                   ^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 91, in get_token
+    return token_json["access_token"]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'access_token'
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Bad Request', 'error': 'invalid_request'}
+ERROR:django.request:Internal Server Error: /api/zoom-callback/
+Traceback (most recent call last):
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/cannabees_backend/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 76, in zoom_callback
+    return HttpResponse("Your user info is: %s" % get_username(access_token))
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/backend/project/views.py", line 101, in get_username
+    headers = {"Authorization": "Bearer " + access_token}
+                                ~~~~~~~~~~^~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Bad Request', 'error': 'invalid_request'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Bad Request', 'error': 'invalid_request'}
+ERROR:root:Error getting access token: {'reason': 'Bad Request', 'error': 'invalid_request'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/zoomauth/
+WARNING:django.request:Not Found: /api/zoom-oauth/
+WARNING:django.request:Not Found: /api
+WARNING:django.request:Not Found: /api/redirect/:8000/api
+ERROR:root:Error getting access token: {'reason': 'Invalid client_id or client_secret', 'error': 'invalid_client'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Invalid client_id or client_secret', 'error': 'invalid_client'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Invalid client_id or client_secret', 'error': 'invalid_client'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Invalid client_id or client_secret', 'error': 'invalid_client'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+ERROR:root:Error getting access token: {'reason': 'Invalid authorization code', 'error': 'invalid_grant'}
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/urls.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.
+INFO:django.utils.autoreload:/backend/project/views.py changed, reloading.

@@ -1,0 +1,23 @@
+name: cannabees_backend
+dependencies:
+  - python=3.12.1
+  - pip
+  - psycopg2
+  - pip:
+      - django==5.0.1
+      - drf-yasg
+      - flake8
+      - djangorestframework
+      - django-filter
+      - djangorestframework_simplejwt
+      - coreapi
+      - gunicorn
+      - Pillow
+      - django-cors-headers
+      - django-extensions
+      - django-fullurl
+      - django-request
+      - requests==2.31.0
+      - ics
+      - celery
+      - redis

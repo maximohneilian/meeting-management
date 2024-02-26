@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@tiptap/react": "^2.2.3"
+  }
+}
